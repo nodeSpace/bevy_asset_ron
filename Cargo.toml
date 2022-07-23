@@ -15,7 +15,7 @@ exclude = ["assets/**/*"]
 
 [dependencies]
 anyhow = "1"
-bevy = { version = "0.7", default-features = false }
+bevy = {git = "https://github.com/bevyengine/bevy.git?rev=619c30c", branch="main"}
 ron = "0.7"
 serde = "1"
 
